@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: favorite-button-and-toast
+expected_outcome: |
+  FavoriteButton.swift is edited so the heart tap has press feedback, a spring-driven state change and a paired haptic, and the toast enters and exits with a symmetric, interruptible spring transition that respects Reduce Motion.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: break-profile-header
+expected_outcome: |
+  ProfileHeaderView.swift gains worst-case #Preview variants and report.md lists every break (with cause and fix), without the view itself being fixed.
+context:
+  scaffold_script: place-files.sh

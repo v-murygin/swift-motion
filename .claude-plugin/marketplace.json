@@ -1,0 +1,26 @@
+{
+  "name": "swift-motion",
+  "owner": { "name": "Vladislav Murygin", "url": "https://github.com/v-murygin" },
+  "metadata": {
+    "description": "Motion and UI-craft taste skills for Swift apps (SwiftUI, iOS 17+).",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "swift-motion",
+      "description": "Build animations and gestures that feel first-party, review and trim existing motion, and stress-test SwiftUI layouts with worst-case data.",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["swift", "swiftui", "ios", "animation", "motion", "gestures", "haptics"],
+      "skills": [
+        "./skills/swift-motion-animate",
+        "./skills/swift-motion-gestures",
+        "./skills/swift-motion-review",
+        "./skills/swift-motion-break-ui"
+      ]
+    }
+  ]
+}

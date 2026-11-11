@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: strict-review-inbox
+expected_outcome: |
+  review.md is a strict, severity-ranked review of InboxView.swift's motion with file/line locations and concrete SwiftUI fixes; the source file is not modified.
+context:
+  scaffold_script: place-files.sh

@@ -9,11 +9,12 @@ Thanks for helping. Bug reports, corrections with evidence, new eval cases and n
 skills/<name>/SKILL.md      the skill: frontmatter description + body
 skills/<name>/references/   detail the skill loads on demand
 skills/<name>/evals/        eval cases (prompt, input files, graders)
+docs/CANON.md               every value and rule, with its source; the skills copy from it
 ```
 
 ## Ground rules
 
-- **Cite the source of a value.** Apple first (SDK behaviour, WWDC, the HIG, measured system behaviour), then the best-evidenced source. Keep the skills' split: Apple's guidance is stated as Apple's, house values are labelled guidelines with a reason. Don't change a number without saying where the new one comes from.
+- **Cite the source of a value.** Apple first (SDK behaviour, WWDC, the HIG, measured system behaviour), then the best-evidenced source. Keep the skills' split: Apple's guidance is stated as Apple's, house values are labelled guidelines with a reason. Don't change a number without saying where the new one comes from. Change it in `docs/CANON.md` first, then in every skill that carries it.
 - **Typecheck every Swift block you add or edit** at the deployment target it's marked with (iOS 17 unless marked 18, 26, 27 or 27.1).
 - **Keep the skills consistent.** A value that appears in more than one skill (spring presets, frequency tiers, haptic rules) changes everywhere or nowhere.
 - **Keep SKILL.md lean.** Put detail in `references/` and point to it from the body.

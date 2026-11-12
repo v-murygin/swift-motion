@@ -1,6 +1,6 @@
 {
   "name": "swift-motion",
-  "owner": { "name": "Vladislav Murygin", "url": "https://github.com/v-murygin" },
+  "owner": { "name": "Vladislav Murygin", "email": "hello@murygin.app", "url": "https://github.com/v-murygin" },
   "metadata": {
     "description": "Motion and UI-craft taste skills for Swift apps (SwiftUI, iOS 17+).",
     "version": "1.0.0"

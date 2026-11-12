@@ -2,7 +2,7 @@
   "name": "swift-motion",
   "version": "1.0.0",
   "description": "Motion and UI-craft taste for Swift apps: build animations and gestures that feel first-party, review and trim existing motion, and stress-test SwiftUI layouts with worst-case data.",
-  "author": { "name": "Vladislav Murygin", "url": "https://github.com/v-murygin" },
+  "author": { "name": "Vladislav Murygin", "email": "hello@murygin.app", "url": "https://github.com/v-murygin" },
   "repository": "https://github.com/v-murygin/swift-motion",
   "license": "MIT",
   "keywords": ["swift", "swiftui", "ios", "animation", "motion", "springs", "gestures", "haptics", "accessibility", "liquid-glass"],

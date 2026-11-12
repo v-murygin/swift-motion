@@ -176,4 +176,4 @@ The score table above comes from a separate blind 1–10 judge. `claude plugin e
 
 ## License
 
-[MIT](LICENSE) © Vladislav Murygin
+[MIT](LICENSE) © Vladislav Murygin · [hello@murygin.app](mailto:hello@murygin.app)
